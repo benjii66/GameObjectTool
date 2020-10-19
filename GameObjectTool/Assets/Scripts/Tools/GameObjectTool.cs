@@ -10,8 +10,8 @@ public class GameObjectTool
 	[MenuItem("Fake GameObject/Create Empty")]
 	static void CreateEmpty()
 	{
-		GameObject _truc = new GameObject("Empty");
-		Selection.activeGameObject = _truc.gameObject;
+		GameObject _empty = new GameObject("Empty");
+		Selection.activeGameObject = _empty.gameObject;
 	}
 
 	[MenuItem("Fake GameObject/3D Object/Cube")]
